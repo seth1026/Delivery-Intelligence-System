@@ -60,7 +60,7 @@ Model (Random Forest)
 Prediction Output + Insights
 
 ## 📂 Project Structure
-
+```
 delivery-intelligence/
 │
 ├── app.py                  # Streamlit app
@@ -74,6 +74,7 @@ delivery-intelligence/
     ├── train.py            # Model training & feature importance
     └── predict.py          # Prediction pipeline
 
+```
 ## ⚙️ Installation & Setup
 # Clone the repo
 git clone https://github.com/your-username/delivery-intelligence.git
@@ -90,8 +91,10 @@ pip install -r requirements.txt
 # Run the app
 streamlit run app.py
 
-# 📸 How to Add Screenshots
+# 📸 Screenshots
 
-1. Create folder:
-```bash
-screenshots/
+### 🔹 Dashboard Overview
+![Dashboard](screenshots/dashboard.png)
+
+### 🔹 Prediction Interface
+![Prediction](screenshots/prediction.png)
